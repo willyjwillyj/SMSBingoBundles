@@ -1,0 +1,68 @@
+{
+  "name": "gameplay",
+  "version": "0.0.0",
+  "description": "Gameplay scene and required associations for sms bingo tournament ",
+  "homepage": "",
+  "author": {
+    "name": "willyjwillyj",
+    "email": "willyjwillyj314@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "1.9.0",
+    "dashboardPanels": [
+      {
+        "name": "commentators",
+        "title": "Commentators",
+        "width": 4,
+        "file": "commentators.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "smallBoard/index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "mediumBoard/index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "largeBoard/index.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git",
+  "license": "UNLICENSED",
+  "private": true
+}
